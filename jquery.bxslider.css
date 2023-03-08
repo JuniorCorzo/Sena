@@ -33,7 +33,7 @@
 	-moz-box-shadow: 0 0 5px #ccc;
 	-webkit-box-shadow: 0 0 5px #ccc;
 	box-shadow: 0 0 5px #ccc;
-	border:  5px solid #fff;
+	border:  2px solid #000000;
 	left: -5px;
 	background: #fff;
 	
@@ -104,21 +104,14 @@
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
 .bx-wrapper .bx-prev {
-	left: 10px;
-	background: url(images/controls.png) no-repeat 0 -32px;
+	left: 15px;
+	background: url(images/controls.png) no-repeat;
+	rotate: 180deg;
 }
 
 .bx-wrapper .bx-next {
-	right: 10px;
-	background: url(images/controls.png) no-repeat -43px -32px;
-}
-
-.bx-wrapper .bx-prev:hover {
-	background-position: 0 0;
-}
-
-.bx-wrapper .bx-next:hover {
-	background-position: -43px 0;
+	right: 15px;
+	background: url(images/controls.png) no-repeat;
 }
 
 .bx-wrapper .bx-controls-direction a {
@@ -126,10 +119,9 @@
 	top: 50%;
 	margin-top: -16px;
 	outline: 0;
-	width: 32px;
-	height: 32px;
-	text-indent: -9999px;
-	z-index: 9999;
+	width: 55px;
+	height: 55px;
+	color: transparent;
 }
 
 .bx-wrapper .bx-controls-direction a.disabled {
